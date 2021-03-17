@@ -1,0 +1,57 @@
+h1.welcome{
+	color: #087C91;
+	background-color: #DACDFF;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+/* Transition couleur au passage de la souris */
+h1.welcome:hover{
+  color: #DACDFF;
+	background-color: #087C91;
+	font-size: 37px;
+	transition: 0.8s all;
+	visibility: visible;
+
+}
+
+body{
+	background-color: #DACDFF;
+	margin: 0px;
+}
+
+img.logo{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 7%;
+}
+img.logo:hover{
+	width: 7.9%;
+	transition: 0.5s;
+}
+
+img.youtube{
+	width: 8%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 1;
+}
+img.youtube:hover{
+	opacity: 0;
+	transition: 1s;
+}
+
+h3.troll{
+	font-family: Comic sans ms;
+  font-size: 25px;
+	color: rgb(183, 111, 255);
+	opacity: 0;
+}
+h3.troll:hover{
+  opacity: 1;
+	transition: 1.5s;
+}
