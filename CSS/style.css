@@ -5,7 +5,7 @@ h1.welcome{
 	padding-top: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
-
+  font-family: fantasy;
 }
 /* Transition couleur au passage de la souris */
 h1.welcome:hover{
@@ -14,9 +14,7 @@ h1.welcome:hover{
 	font-size: 37px;
 	transition: 0.8s all;
 	visibility: visible;
-
 }
-
 body{
 	background-color: #DACDFF;
 	margin: 0px;
@@ -54,4 +52,21 @@ h3.troll{
 h3.troll:hover{
   opacity: 1;
 	transition: 1s;
+}
+
+a.mail{
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	font-size: 25px;
+  font-family: comic sans ms;
+	color: #000
+}
+a.mail:hover{
+	font-size: 27px;
+	transition: 0.4s;
+	color: rgb(20, 36, 251);
+	transition: 0.4s;
 }
