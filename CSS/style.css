@@ -1,11 +1,12 @@
 h1.welcome{
-	color: #087C91;
+  color: #087C91;
 	background-color: #DACDFF;
 	padding-bottom: 10px;
 	padding-top: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
   font-family: fantasy;
+
 }
 /* Transition couleur au passage de la souris */
 h1.welcome:hover{
@@ -65,8 +66,8 @@ a.mail{
 	color: #000
 }
 a.mail:hover{
-	font-size: 27px;
+  font-size: 28px;
 	transition: 0.4s;
-	color: rgb(20, 36, 251);
+	color: rgb(167, 4, 255);
 	transition: 0.4s;
 }
