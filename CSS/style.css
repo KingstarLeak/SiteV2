@@ -71,3 +71,39 @@ a.mail:hover{
 	color: rgb(167, 4, 255);
 	transition: 0.4s;
 }
+
+img.thumbnail{
+  width: 70%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1.bdp{
+  opacity: 0;
+  font-size: 500px;
+}
+
+nav.menu ul li{
+	display: inline-block;
+  list-style-type: none;
+}
+nav.menu ul li a{
+  color: #DACDFF;
+  text-decoration: none;
+  background-color: #087C91;
+  padding: 12px;
+  font-size: 22px;
+}
+nav.menu ul li a:hover{
+  color: #087C91;
+  background-color: #DACDFF;
+  transition: 0.4s;
+  font-size: 24px;
+}
+
+h1.hide{
+  opacity: 0;
+  font-size: 10px;
+}
