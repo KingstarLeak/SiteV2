@@ -13,13 +13,13 @@ body{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #000144;
+  background: #00001b;
 }
 
 h2{
   position: relative;
   font-size: 14vw;
-  color: #000144;
+  color: #00001b;
   -webkit-text-stroke: 0.3vw #474877;
   text-transform: uppercase;
 }
