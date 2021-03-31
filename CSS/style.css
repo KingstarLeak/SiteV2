@@ -1,15 +1,15 @@
-h1.welcome{
+mark.hey{
   color: #087C91;
 	background-color: #DACDFF;
 	padding-bottom: 10px;
 	padding-top: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
-  font-family: fantasy;
-
+  font-family: impact;
 }
+
 /* Transition couleur au passage de la souris */
-h1.welcome:hover{
+mark.hey:hover{
   color: #DACDFF;
 	background-color: #087C91;
 	font-size: 37px;
@@ -95,6 +95,7 @@ nav.menu ul li a{
   background-color: #087C91;
   padding: 12px;
   font-size: 22px;
+  font-family: impact;
 }
 nav.menu ul li a:hover{
   color: #087C91;
