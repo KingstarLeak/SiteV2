@@ -109,3 +109,43 @@ h1.hide{
   font-size: 10px;
 }
 
+#why{
+  font-family: comic sans ms;
+  color: #39006B;
+  font-size: 30px
+}
+
+#whfdy:hover{
+  font-size: 35px;
+  transition: 0.4s;
+}
+
+
+nav.oulah ul li{
+	display: inline-block;
+  list-style-type: none;
+}
+nav.oulah ul li a{
+  color: #ff8200;
+  text-decoration: none;
+  background-color: #000000;
+  padding: 12px;
+  font-size: 50px;
+  font-family: impact;
+}
+nav.oulah ul li a:hover{
+  color: #000000;
+  background-color: #ff8200;
+  transition: 0.4s;
+  font-size: 60px;
+}
+body.oulah{
+	background-color: #0b0b0b;
+	margin: 0px;
+}
+
+h1.invisible{
+  font-size: 150px;
+  opacity: 0;
+
+}
